@@ -1,31 +1,32 @@
 
   body{
-    background: wheat;
+    background: LightGreen;
     font-size: 120%;
+    font-family: monospace;
   }
   .content{
     border: 3px dotted brown;
   }
   p {
-    font-family: Courier;
+    font-family: Arial;
     text-align: left;
     margin: 8%;
     line-height: 30px;
   }
   h1 {
-    font-family: Courier;
+    font-family: Arial;
     text-align: center;
     justify-content: center;
     font-weight: bold;
     font-size: 250%;
   }
   h2 {
-    font-family: Courier;
+    font-family: Arial;
     text-align: center;
     font-weight: bolder;
   }
   blockquote {
-    font-family: Courier;
+    font-family: Arial;
   }
   .zanr {
     line-height: 20%;
@@ -34,21 +35,17 @@
     font-size: 250%;
     padding: 2px;
   }
-  .autor{
+  .autor, .zdroj{
+
     text-align: center;
     margin: 0.5%;
     font-size: 129%;
   }
-  .zdroj{
-    text-align: center;
-    margin: 0.5%;
-    font-size: 80%;
-  }
-  section[id="pytel"]{
+
+  #pytel, #zaver{
     border: 2px dotted green;
   }
-  section[id="zaver"]{
-    border: 2px solid brown;
+  
   }
   footer{
     color: red;
